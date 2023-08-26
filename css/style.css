@@ -575,6 +575,14 @@ body {
     .slider-img {
         height: 52vh;
     }
+
+    .menu__logo {
+        font-size: 19px;
+    }
+
+    .menu__link {
+        font-size: 15px;
+    }
 }
 
 @media (max-width: 460px) {
