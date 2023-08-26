@@ -5,10 +5,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800" rel="stylesheet" />
 
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,regular,500,600,700,800" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css">
     <title>Julia Olee</title>
 </head>
@@ -19,10 +20,14 @@
             <div class="container">
                 <div class="header__inner">
                     <div class="header__menu">
-                        <a href="index.html" class="menu__logo current__page">JULIA OLEE</a>
+                        <a href="index.html" class="menu__logo ">JULIA OLEE</a>
                         <nav class="menu">
+                            <button class="menu__btn">
+                                <span></span>
+                                <span></span>
+                                <span></span>
+                            </button>
                             <ul class="menu__list">
-
                                 <li class="menu__item">
                                     <a class="menu__link" href="portfolio.html">
                                         Portfolio
@@ -69,12 +74,11 @@
                                 </p>
                             </div>
                             <div class="news-collage">
-                                <img src="images/news/IMG_7096y.jpg" alt="LISA" class="news-img">
-                                <img src="images/news/IMG_7183bb.jpg" alt="LISA" class="news-img">
-                                <img class="item-horizontal" src="images/news/IMG_7198text.jpg" alt="LISA"
-                                    class="news-img">
-                                <img src="images/news/IMG_7212.jpg" alt="LISA" class="news-img">
-                                <img src="images/news/IMG_7322.jpg" alt="LISA" class="news-img">
+                                <img class="news-img" src="images/news/IMG_7096y.jpg" loading="lazy" alt="LISA">
+                                <img class="news-img" src="images/news/IMG_7183bb.jpg" loading="lazy" alt="LISA">
+                                <img class="item-horizontal" src="images/news/IMG_7198text.jpg" alt="LISA" class="">
+                                <img class="news-img" src="images/news/IMG_7212.jpg" loading="lazy" alt="LISA">
+                                <img class="news-img" src="images/news/IMG_7322.jpg" loading="lazy" alt="LISA">
                             </div>
                         </div>
                         <div class="news-block">
@@ -83,22 +87,21 @@
                                 <p class="news-credits">model Alina <br> photo by me</p>
                             </div>
                             <div class="news-collage two_pics">
-                                <img src="images/news/3.jpg" alt="Alina" class="news-img">
-                                <img src="images/news/4.jpg" alt="Alina" class="news-img">
+                                <img class="news-img" src="images/news/3.jpg" loading="lazy" alt="Alina">
+                                <img class="news-img" src="images/news/4.jpg" loading="lazy" alt="Alina">
 
                             </div>
                         </div>
-                        <!-- <div class="news-block">
+                        <div class="news-block">
                             <div class="news-block__text">
-                                <p class="news-block__title">Forever alone</p>
-                                <p class="news-credits">model Alina <br> photo&style by me</p>
+                                <p class="news-block__title">Perfection</p>
+                                <p class="news-credits"> published on PhotoVogue</p>
                             </div>
-                            <div class="news-collage two_pics">
-                                <img src="" alt="" class="news-img">
-                                <img src="" alt="" class="news-img">
-                                <img src="" alt="" class="news-img">
+                            <div class="news-collage two_pics ">
+                                <img class="item-horizontal" src="images/news/Perfection.jpg" loading="lazy"
+                                    alt="PhotoVogue">
                             </div>
-                        </div> -->
+                        </div>
                     </div>
                 </div>
             </section>
@@ -139,6 +142,9 @@
         </main>
 
     </div>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 
 </html>
