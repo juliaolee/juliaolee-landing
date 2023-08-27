@@ -324,6 +324,7 @@ body {
 
 .slick-dots {
     padding: 0;
+
 }
 
 .portfolio__slider {
@@ -408,6 +409,52 @@ body {
     width: 100%;
 }
 
+@media (max-width: 1200px) {
+    .portfolio__slider .slick-arrow.slick-prev {
+        left: 8px;
+    }
+
+    .portfolio__slider .slick-arrow.slick-next {
+        right: 8px;
+    }
+
+    .slider-img {
+        height: 70vh;
+    }
+
+    .portfolio__slider .slick-arrow {
+        width: 20px;
+        height: 40px;
+    }
+}
+
+@media (max-width: 1110px) {
+    .slider-img {
+        height: 63vh;
+    }
+
+    .models,
+    .magazines,
+    .personal {
+        margin-bottom: 50px;
+    }
+}
+
+@media(max-width:1000px) {
+
+    .slider-img {
+        height: 70vh;
+    }
+
+    .portfolio__slider .slick-arrow.slick-prev {
+        left: 100px;
+    }
+
+    .portfolio__slider .slick-arrow.slick-next {
+        right: 100px;
+    }
+}
+
 @media (max-width: 890px) {
     .top__title {
         font-size: 42px;
@@ -435,9 +482,25 @@ body {
     .personal {
         margin-bottom: 70px;
     }
+
+    .portfolio__slider .slick-arrow.slick-prev {
+        left: 50px;
+    }
+
+    .portfolio__slider .slick-arrow.slick-next {
+        right: 50px;
+    }
 }
 
 @media (max-width: 750px) {
+    .portfolio__slider .slick-arrow.slick-next {
+        right: 5px;
+    }
+
+    .portfolio__slider .slick-arrow.slick-prev {
+        left: 5px;
+    }
+
     .menu__logo {
         font-size: 22px;
     }
@@ -494,15 +557,7 @@ body {
     }
 }
 
-@media (max-width: 660px) {
-    .portfolio__slider .slick-arrow.slick-next {
-        right: 5px;
-    }
 
-    .portfolio__slider .slick-arrow.slick-prev {
-        left: 5px;
-    }
-}
 
 @media (max-width: 615px) {
     .news__title {
@@ -671,6 +726,7 @@ body {
         font-size: 21px;
     }
 
+
     .slider-img {
         height: 45vh;
     }
@@ -680,10 +736,9 @@ body {
     }
 
 
-
-    .portfolio__slider .slick-dots li {
+    /* .portfolio__slider .slick-dots li {
         margin: 0 3px;
-    }
+    } */
 
     .portfolio__slider .slick-arrow {
         width: 16px;
@@ -705,15 +760,17 @@ body {
         height: auto;
     }
 
+    .portfolio__slider .slick-dots {
+        display: none;
+    }
+
     .models,
     .magazines,
     .personal {
         margin-bottom: 30px;
     }
 
-    .portfolio__slider .slick-dots {
-        display: none;
-    }
+
 }
 
 @media(max-width:370px) {

@@ -11,10 +11,19 @@ $(document).ready(function () {
         waitForAnimate: false,
         responsive: [
             {
-                breakpoint: 1200,
+                breakpoint: 1000,
                 settings: {
                     slidesToShow: 1,
                     slidesToScroll: 1,
+
+                }
+            },
+            {
+                breakpoint: 540,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    dots: false,
                 }
             }
         ]
