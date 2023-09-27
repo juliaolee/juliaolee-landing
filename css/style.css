@@ -207,6 +207,7 @@ body {
     gap: 30px 20px;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
+    align-items: center;
 }
 
 .two_pics {
@@ -272,7 +273,7 @@ body {
 .email::before {
     content: "";
     position: absolute;
-    background-image: url(../img/icons/email.svg);
+    background-image: url(../images/icons/email.svg);
     height: 17px;
     width: 20px;
     background-repeat: no-repeat;
@@ -726,6 +727,9 @@ body {
         font-size: 21px;
     }
 
+    .email::before {
+        top: 11px;
+    }
 
     .slider-img {
         height: 45vh;
